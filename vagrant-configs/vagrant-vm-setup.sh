@@ -8,7 +8,8 @@ echo "==========================================================="
 echo "[vagrant-vm-setup.sh] Setting up vagrant VM, please wait..."
 echo "==========================================================="
 
-sudo apt-get install hello
+sudo apt-get update
+#sudo apt-get install hello
 
 # Any commands inside the 'if' decision construct below are run only the
 # very first time VM is booted using 'vagrant up'. You can use this to
